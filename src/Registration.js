@@ -4,7 +4,7 @@ import axios from 'axios';
 const Registration = () => {
   const [access, setAccess] = useState(false);
   const [message, setMessage] = useState('');
-
+x
   useEffect(() => {
     const checkAccess = async () => {
       try {
